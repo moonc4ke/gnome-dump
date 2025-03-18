@@ -19,6 +19,52 @@ swap-icon-text=false
 devices=['{"name":"G305 Lightspeed Wireless Gaming Mouse","mac":"fc-62-b2-59"}', '{"name":"Soundcore Q30","mac":"E8:EE:CC:74:D3:45","icon":"battery-full-symbolic","isActive":true}']
 hide-indicator=true
 
+[blur-my-shell]
+hacks-level=1
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/applications]
+blur=false
+blur-on-overview=false
+brightness=0.66000000000000003
+enable-all=true
+opacity=255
+
+[blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[blur-my-shell/panel]
+blur=true
+brightness=0.20000000000000001
+pipeline='pipeline_default'
+sigma=58
+static-blur=false
+
+[blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=15
+
 [clipboard-indicator]
 history-size=25
 toggle-menu=['<Shift><Super>v']
@@ -77,6 +123,119 @@ workspace-switcher-should-show=false
 workspace-thumbnail-to-main-view=false
 workspace-wrap-around=false
 workspaces-in-app-grid=true
+
+[openbar]
+autofg-bar=true
+autohg-bar=true
+autohg-menu=true
+autotheme-dark='Dark'
+autotheme-font=true
+bartype='Mainland'
+bcolor=['0.361', '0.592', '0.929']
+bg-change=true
+bgalpha=0.94999999999999996
+bgcolor=['0.082', '0.125', '0.420']
+bgcolor-wmax=['0.118', '0.118', '0.118']
+bgcolor2=['0.278', '0.192', '0.263']
+bguri='file:///home/kami/.config/background'
+boxalpha=0.0
+boxcolor=['0.082', '0.125', '0.420']
+count1=136868
+count10=2009
+count11=627
+count12=29
+count2=114967
+count3=61103
+count4=24392
+count5=22738
+count6=21407
+count7=13667
+count8=13239
+count9=6954
+dark-bcolor=['0.361', '0.592', '0.929']
+dark-bgcolor=['0.082', '0.125', '0.420']
+dark-bgcolor-wmax=['0.118', '0.118', '0.118']
+dark-bgcolor2=['0.278', '0.192', '0.263']
+dark-bguri='file:///home/kami/.config/background'
+dark-boxcolor=['0.082', '0.125', '0.420']
+dark-hcolor=['0.867', '0.780', '0.788']
+dark-hscd-color=['0.851', '0.537', '0.412']
+dark-iscolor=['0.082', '0.125', '0.420']
+dark-mbcolor=['0.867', '0.780', '0.788']
+dark-mbgcolor=['0.094', '0.137', '0.239']
+dark-mhcolor=['0.867', '0.780', '0.788']
+dark-mscolor=['0.851', '0.537', '0.412']
+dark-mshcolor=['0.000', '0.000', '0.000']
+dark-palette1=['75', '105', '183']
+dark-palette10=['170', '196', '165']
+dark-palette11=['238', '149', '51']
+dark-palette12=['188', '92', '104']
+dark-palette2=['223', '157', '130']
+dark-palette3=['155', '127', '151']
+dark-palette4=['93', '152', '237']
+dark-palette5=['80', '74', '118']
+dark-palette6=['25', '38', '126']
+dark-palette7=['21', '58', '154']
+dark-palette8=['103', '79', '41']
+dark-palette9=['221', '199', '201']
+dark-shcolor=['0.000', '0.000', '0.000']
+dark-smbgcolor=['0.278', '0.192', '0.263']
+dark-vw-color=['0.851', '0.537', '0.412']
+dark-winbcolor=['0.851', '0.537', '0.412']
+default-font='Sans 12'
+fgalpha=1.0
+fitts-widgets=false
+hcolor=['0.867', '0.780', '0.788']
+height=30.0
+hscd-color=['0.851', '0.537', '0.412']
+import-export=false
+isalpha=0.94999999999999996
+iscolor=['0.082', '0.125', '0.420']
+light-bguri='file:///home/kami/.config/background'
+light-palette1=['75', '105', '183']
+light-palette10=['170', '196', '165']
+light-palette11=['238', '149', '51']
+light-palette12=['188', '92', '104']
+light-palette2=['223', '157', '130']
+light-palette3=['155', '127', '151']
+light-palette4=['93', '152', '237']
+light-palette5=['80', '74', '118']
+light-palette6=['25', '38', '126']
+light-palette7=['21', '58', '154']
+light-palette8=['103', '79', '41']
+light-palette9=['221', '199', '201']
+margin=6.4000000000000004
+mbcolor=['0.867', '0.780', '0.788']
+mbgcolor=['0.094', '0.137', '0.239']
+mfgalpha=1.0
+mhcolor=['0.867', '0.780', '0.788']
+monitor-height=1145
+monitor-width=1832
+mscolor=['0.851', '0.537', '0.412']
+mshcolor=['0.000', '0.000', '0.000']
+palette1=['75', '105', '183']
+palette10=['170', '196', '165']
+palette11=['238', '149', '51']
+palette12=['188', '92', '104']
+palette2=['223', '157', '130']
+palette3=['155', '127', '151']
+palette4=['93', '152', '237']
+palette5=['80', '74', '118']
+palette6=['25', '38', '126']
+palette7=['21', '58', '154']
+palette8=['103', '79', '41']
+palette9=['221', '199', '201']
+pause-reload=true
+reloadstyle=true
+set-fullscreen=false
+set-notif-position=false
+set-overview=false
+shcolor=['0.000', '0.000', '0.000']
+smbgcolor=['0.278', '0.192', '0.263']
+trigger-autotheme=false
+trigger-reload=true
+vw-color=['0.851', '0.537', '0.412']
+winbcolor=['0.851', '0.537', '0.412']
 
 [space-bar/appearance]
 application-styles='.space-bar {\n  -natural-hpadding: 12px;\n}\n\n.space-bar-workspace-label.active {\n  margin: 0 4px;\n  background-color: rgba(255,255,255,0.3);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive.empty {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,0.5);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}'
