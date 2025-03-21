@@ -9,7 +9,7 @@ color-60='#15c931'
 color-70='#15c931'
 color-80='#15c931'
 color-90='#15c931'
-device-list=['{"path":"/org/bluez/hci0/dev_E8_EE_CC_74_D3_45","icon":"audio-headset","alias":"Soundcore Q30","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"connected-time":1742315676,"disconnected-time":1742322733}']
+device-list=['{"path":"/org/bluez/hci0/dev_E8_EE_CC_74_D3_45","icon":"audio-headset","alias":"Soundcore Q30","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"connected-time":1742578004,"disconnected-time":1742578001}']
 enable-battery-level-icon=true
 enable-battery-level-text=true
 sort-devices-by-history=false
@@ -53,9 +53,9 @@ pipeline='pipeline_default'
 
 [blur-my-shell/panel]
 blur=true
-brightness=0.20000000000000001
+brightness=0.29999999999999999
 pipeline='pipeline_default'
-sigma=58
+sigma=26
 static-blur=false
 
 [blur-my-shell/screenshot]
@@ -261,7 +261,11 @@ position-in-panel='right'
 show-cpu=true
 show-disk=false
 show-fs=true
-show-icons=false
+show-icons=true
 show-menu-actions=true
 show-net=true
 use-system-accent=true
+
+[trayIconsReloaded]
+applications='[{"id":"org.qbittorrent.qBittorrent.desktop"},{"id":"scout-app-force.desktop"}]'
+tray-margin-left=5
