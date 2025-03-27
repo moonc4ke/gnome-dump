@@ -9,7 +9,7 @@ color-60='#15c931'
 color-70='#15c931'
 color-80='#15c931'
 color-90='#15c931'
-device-list=['{"path":"/org/bluez/hci0/dev_E8_EE_CC_74_D3_45","icon":"audio-headset","alias":"Soundcore Q30","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"connected-time":1742815325,"disconnected-time":1742578001}']
+device-list=['{"path":"/org/bluez/hci0/dev_E8_EE_CC_74_D3_45","icon":"audio-headset","alias":"Soundcore Q30","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"connected-time":1742916909,"disconnected-time":1742916991}']
 enable-battery-level-icon=true
 enable-battery-level-text=true
 sort-devices-by-history=false
@@ -246,7 +246,7 @@ enable-activate-workspace-shortcuts=true
 enable-move-to-workspace-shortcuts=true
 
 [space-bar/state]
-version=32
+version=33
 
 [tophat]
 cpu-display='numeric'
